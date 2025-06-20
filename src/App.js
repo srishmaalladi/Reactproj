@@ -1,13 +1,14 @@
+import React from 'react';
+import Header from './Components/Header';
+import Content from './Components/Content';
 
-import ContactUs from "./ContactUs";
-import Login from "./Login";
-export default function App(){
-  
-
+function App() {
   return (
-    <>
-    {/* <ContactUs></ContactUs> */}
-    <Login></Login>
-    </>
-  )
+    <div>
+      <Header />
+      <Content />
+    </div>
+  );
 }
+
+export default App;
